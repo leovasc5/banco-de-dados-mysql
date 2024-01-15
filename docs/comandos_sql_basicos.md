@@ -309,6 +309,11 @@ SELECT ROUND(preco, 2) AS preco_arredondado
 FROM produtos;
 ```
 
+Lembre-se de que esses são apenas exemplos básicos das muitas funções disponíveis no MySQL. Você pode explorar a documentação oficial do MySQL para obter uma lista completa de funções embutidas e suas respectivas descrições.
+
+As funções básicas do MySQL são ferramentas poderosas que permitem manipular e transformar os dados em suas consultas. Ao dominar o uso dessas funções, você poderá realizar cálculos, formatar dados e extrair informações relevantes para atender às suas necessidades específicas de consulta.
+
+
 ---
 <div align="center">
     <a href="introducao.md"><kbd> <br> Capítulo Anterior <br> </kbd></a>‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ 
