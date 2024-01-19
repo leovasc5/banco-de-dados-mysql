@@ -298,11 +298,16 @@ Na sintaxe acima, você especifica a função desejada, seguida pelos parêntese
 Exemplo: Usando a função UPPER() para exibir os nomes dos clientes em letras maiúsculas:
  
 ```sql
+SELECT UPPER(nome) AS nome_maiusculo
+FROM clientes;
+```
+
+Exemplo: Utilizando a função ROUND() para arredondar os valores de uma coluna de preços com duas casas decimais:
+
+```sql
 SELECT ROUND(preco, 2) AS preco_arredondado
 FROM produtos;
 ```
-
-
 
 ---
 <div align="center">
