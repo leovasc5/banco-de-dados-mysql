@@ -293,6 +293,15 @@ SELECT função(coluna) AS alias
 FROM tabela;
 ```
 
+Na sintaxe acima, você especifica a função desejada, seguida pelos parênteses contendo a coluna na qual a função será aplicada. O uso do "AS alias" é opcional e permite atribuir um nome personalizado ao resultado da função.
+
+Exemplo: Usando a função UPPER() para exibir os nomes dos clientes em letras maiúsculas:
+ 
+```sql
+SELECT ROUND(preco, 2) AS preco_arredondado
+FROM produtos;
+```
+
 
 
 ---
