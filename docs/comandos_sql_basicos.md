@@ -286,6 +286,13 @@ Funções de data e hora:
 <b>DATE_FORMAT()</b>: formata uma data de acordo com um padrão especificado.
 <b>DATEDIFF()</b>: calcula a diferença em dias entre duas datas.
 
+Para usar uma função em uma consulta, você precisa inclui-la em sua instrução SELECT. A sintaxe básica é a seguinte:
+
+```sql
+SELECT função(coluna) AS alias
+FROM tabela;
+```
+
 
 
 ---
