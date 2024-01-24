@@ -272,9 +272,20 @@ Existem diferentes categorias de funções disponíveis, como funções matemát
 
 <b>Funções matemáticas:</b>
 
-<b>ABS():</b> retorna o valor absoluto de um número.
-<b>ROUND():</b> arredonda um número para um determinado número de casas decimais.
-<b>SUM():</b> calcula a soma de valores em uma coluna.
+<b>ABS()</b>: retorna o valor absoluto de um número.
+<b>ROUND()</b>: arredonda um número para um determinado número de casas decimais.
+<b>SUM()</b>: calcula a soma de valores em uma coluna.
+
+<e>Funções de cadeia de caracteres:
+<b>UPPER()</b>: converte uma string para letras maiúsculas.
+<b>LOWER()</b>: converte uma string para letras minúsculas.
+<b>CONCAT()</b>: concatena duas ou mais strings em uma única string.
+
+Funções de data e hora:
+<b>NOW()</b>: retorna a data e hora atuais.
+<b>DATE_FORMAT()</b>: formata uma data de acordo com um padrão especificado.
+<b>DATEDIFF()</b>: calcula a diferença em dias entre duas datas.
+
 
 
 ---
