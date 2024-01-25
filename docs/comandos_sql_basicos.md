@@ -268,6 +268,14 @@ As funções desempenham um papel fundamental nas consultas SQL, permitindo mani
 
 Nesta seção, abordaremos o uso de funções básicas no MySQL para melhorar a manipulação e a apresentação dos dados nas consultas. O MySQL fornece uma ampla variedade de funções embutidas que podem ser aplicadas a colunas ou valores individuais em uma consulta.
 
+Existem diferentes categorias de funções disponíveis, como funções matemáticas, funções de cadeia de caracteres, funções de data e hora, funções de conversão de tipos e muitas outras. Abaixo, apresentaremos alguns exemplos dessas funções básicas:
+
+<b>Funções matemáticas:</b>
+
+<b>ABS():</b> retorna o valor absoluto de um número.
+<b>ROUND():</b> arredonda um número para um determinado número de casas decimais.
+<b>SUM():</b> calcula a soma de valores em uma coluna.
+
 
 ---
 <div align="center">
