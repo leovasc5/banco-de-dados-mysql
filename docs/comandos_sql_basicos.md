@@ -262,6 +262,12 @@ A cláusula WHERE é uma ferramenta fundamental para refinar as consultas e obte
 
 Experimente utilizar a cláusula WHERE em suas consultas para filtrar os dados de acordo com suas necessidades e obter resultados mais relevantes e personalizados.
 
+#### Uso de funções básicas
+
+As funções desempenham um papel fundamental nas consultas SQL, permitindo manipular e transformar os dados de maneira eficiente. Elas são recursos poderosos que podem realizar cálculos, converter tipos de dados, extrair informações específicas e muito mais.
+
+Nesta seção, abordaremos o uso de funções básicas no MySQL para melhorar a manipulação e a apresentação dos dados nas consultas. O MySQL fornece uma ampla variedade de funções embutidas que podem ser aplicadas a colunas ou valores individuais em uma consulta.
+
 
 ---
 <div align="center">
