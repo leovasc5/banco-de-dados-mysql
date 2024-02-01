@@ -258,6 +258,10 @@ FROM vendas
 WHERE valor > 1000 AND '2022-01-01';
 ```
 
+A cláusula WHERE é uma ferramenta fundamental para refinar as consultas e obter os resultados desejados. Ela permite filtrar os registros com base em critérios específicos, tornando as consultas mais precisas e eficientes.
+
+Experimente utilizar a cláusula WHERE em suas consultas para filtrar os dados de acordo com suas necessidades e obter resultados mais relevantes e personalizados.
+
 
 ---
 <div align="center">
