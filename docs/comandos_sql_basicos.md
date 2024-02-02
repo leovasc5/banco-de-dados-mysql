@@ -234,6 +234,31 @@ Maior que (>), menor que (<), maior ou igual (>=) e menor ou igual (<=): compara
 Exemplo: Filtrar os registros da tabela "clientes" para exibir apenas aqueles cuja idade seja maior que 25:
 
 
+```sql
+SELECT nome, idade
+FROM clientes
+WHERE idade > 25;
+```
+
+Exemplo: Filtrar os registros da tabela "produtos" para exibir apenas aqueles cujo nome comece com "Camiseta":
+
+```sql
+SELECT nome, preco
+FROM produtos
+WHERE nome LIKE 'Camiseta%';
+```
+
+Você também pode combinar múltiplas condições utilizando operadores lógicos como AND e OR. Isso permite criar filtros mais complexos que consideram várias condições simultaneamente.
+
+Exemplo: Filtrar os registros da tabela "vendas" para exibir apenas aqueles cujo valor seja maior que 1000 e a data seja posterior a 2022-01-01:
+
+```sql
+SELECT cliente, data, valor
+FROM vendas
+WHERE valor > 1000 AND '2022-01-01';
+```
+
+
 ---
 <div align="center">
     <a href="introducao.md"><kbd> <br> Capítulo Anterior <br> </kbd></a>‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ 
