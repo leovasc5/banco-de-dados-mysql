@@ -208,6 +208,15 @@ Quando trabalhamos com bancos de dados, muitas vezes precisamos recuperar apenas
 
 A cláusula WHERE é utilizada em conjunto com a instrução SELECT para especificar as condições que os registros devem atender para serem retornados na consulta. Ela é colocada após a cláusula FROM e antes da cláusula ORDER BY, caso esteja presente.
 
+A sintaxe básica da cláusula WHERE é a seguinte:
+
+```sql
+SELECT coluna1, coluna2, ...
+FROM tabela
+WHERE condição;
+```
+
+Na sintaxe acima, você especifica as colunas que deseja selecionar na consulta, seguidas pela palavra-chave FROM e o nome da tabela. Em seguida, utiliza a cláusula WHERE para definir a condição pela qual os registros serão filtrados.
 
 ---
 <div align="center">
