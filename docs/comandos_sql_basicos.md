@@ -202,6 +202,11 @@ A ordenação dos resultados é uma funcionalidade poderosa que permite organiza
 
 Experimente utilizar a cláusula ORDER BY em suas consultas para obter resultados ordenados de acordo com as suas necessidades.
 
+#### Filtros e condições WHERE
+
+Quando trabalhamos com bancos de dados, muitas vezes precisamos recuperar apenas um subconjunto específico de dados que atenda a determinados critérios. Para isso, utilizamos a cláusula WHERE na linguagem SQL. Essa cláusula permite filtrar os registros de uma tabela com base em condições específicas.
+
+A cláusula WHERE é utilizada em conjunto com a instrução SELECT para especificar as condições que os registros devem atender para serem retornados na consulta. Ela é colocada após a cláusula FROM e antes da cláusula ORDER BY, caso esteja presente.
 
 
 ---
