@@ -190,6 +190,18 @@ FROM produtos
 ORDER BY preco DESC;
 ```
 
+Exemplo: Ordenar os resultados da tabela "vendas" pelo ano em ordem crescente e, em seguida, pelo valor em ordem decrescente:
+
+```sql
+SELECT cliente, data, valor
+FROM vendas
+ORDER BY ano ASC, valor DESC;
+```
+
+A ordenação dos resultados é uma funcionalidade poderosa que permite organizar as informações de forma significativa para melhor análise e apresentação. Lembre-se de que a cláusula ORDER BY é aplicada após a execução da cláusula WHERE, permitindo que você ordene os resultados filtrados.
+
+Experimente utilizar a cláusula ORDER BY em suas consultas para obter resultados ordenados de acordo com as suas necessidades.
+
 
 
 ---
