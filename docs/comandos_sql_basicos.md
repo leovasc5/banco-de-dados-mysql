@@ -180,6 +180,16 @@ ORDER BY coluna1 [ASC | DESC], coluna2 [ASC | DESC];
 
 Nessa sintaxe, você especifica as colunas que deseja selecionar na consulta, seguidas pela palavra-chave FROM e o nome da tabela. Em seguida, utiliza a cláusula ORDER BY para indicar as colunas que serão usadas para ordenar os resultados. Você pode especificar múltiplas colunas separadas por vírgula.
 
+A palavra-chave ASC (ascendente) é utilizada para ordenar em ordem crescente (do menor para o maior valor) e a palavra-chave DESC (descendente) é utilizada para ordenar em ordem decrescente (do maior para o menor valor). O padrão é ordenar em ordem ascendente se nenhuma palavra-chave for especificada.
+
+Exemplo: Ordenar os resultados da tabela "clientes" pelo nome em ordem alfabética:
+
+```sql
+SELECT nome, preco
+FROM produtos
+ORDER BY preco DESC;
+```
+
 
 
 ---
