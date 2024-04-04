@@ -162,6 +162,12 @@ DELETE FROM clientes
 WHERE id = 1;
 ```
 
+É importante tomar cuidado ao usar os comandos de atualização e exclusão, pois eles podem afetar permanentemente os dados em seu banco de dados. Certifique-se sempre de ter backups adequados e de executar essas operações com cautela.
+
+Essas são as operações básicas de inserção, atualização e exclusão de dados utilizando comandos SQL. Elas permitem que você gerencie o conteúdo das suas tabelas de forma flexível e eficiente. À medida que avançarmos no livro, você aprenderá técnicas mais avançadas e estratégias recomendadas para lidar com essas operações.
+ 
+
+
 
 ---
 <div align="center">
