@@ -144,6 +144,24 @@ SET email = 'novo@email.com'
 WHERE id = 1;
 ```
 
+Exclusão de Dados com o comando DELETE:
+
+O comando DELETE é utilizado para excluir registros de uma tabela. A sintaxe básica é a seguinte:
+ 
+```sql
+DELETE FROM tabela
+WHERE condição;
+```
+
+Nessa sintaxe, você especifica a tabela da qual deseja excluir registros. A cláusula WHERE é opcional, mas permite definir uma condição para excluir apenas os registros que atendem a essa condição.
+
+Exemplo: Excluir um cliente da tabela "clientes":
+ 
+```sql
+DELETE FROM clientes
+WHERE id = 1;
+```
+
 
 ---
 <div align="center">
