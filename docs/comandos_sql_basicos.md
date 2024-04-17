@@ -134,6 +134,17 @@ SET coluna1 = valor1, coluna2 = valor2
 WHERE condição;
 ```
 
+Nessa sintaxe, você especifica a tabela que será atualizada e utiliza a palavra-chave SET para atribuir novos valores às colunas desejadas. A cláusula WHERE é opcional, mas permite especificar uma condição para atualizar apenas os registros que atendem a essa condição.
+
+Exemplo: Atualizar o e-mail de um cliente na tabela "clientes":
+
+```sql
+UPDATE clientes 
+SET email = 'novo@email.com'
+WHERE id = 1;
+```
+
+
 ---
 <div align="center">
     <a href="introducao.md"><kbd> <br> Capítulo Anterior <br> </kbd></a>‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ 
