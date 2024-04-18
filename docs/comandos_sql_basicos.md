@@ -58,7 +58,8 @@ As consultas SELECT são um dos principais componentes da linguagem SQL. Elas pe
 A estrutura básica de uma consulta SELECT é a seguinte:
 
 ```sql
-SELECT coluna1, coluna2, ... FROM tabela;
+SELECT coluna1, coluna2, ... 
+FROM tabela;
 ```
 
 Nessa estrutura, você especifica as colunas que deseja obter na cláusula SELECT e a tabela da qual deseja recuperar os dados na cláusula FROM. Você pode selecionar todas as colunas de uma tabela utilizando o caractere de asterisco (*).
@@ -68,13 +69,15 @@ Aqui estão alguns exemplos práticos de consultas SELECT:
 <b>Exemplo 1: Recuperar todas as colunas de uma tabela</b>
 
 ```sql
-SELECT * FROM clientes;
+SELECT * 
+FROM clientes;
 ```
 
 <b>Exemplo 2: Recuperar colunas específicas de uma tabela</b>
 
 ```sql
-SELECT nome, email FROM clientes;
+SELECT nome, email 
+FROM clientes;
 ```
 
 <b>Aplicando Filtros e Condições com a cláusula WHERE:</b>
@@ -82,7 +85,9 @@ SELECT nome, email FROM clientes;
 A cláusula WHERE é usada para aplicar filtros e condições em uma consulta SELECT, permitindo que você restrinja os resultados com base em critérios específicos. Por exemplo, se você deseja recuperar apenas os clientes cujo nome seja "João", você pode usar a cláusula WHERE da seguinte forma:
 
 ```sql
-SELECT nome, email FROM clientes WHERE nome = 'João';
+SELECT nome, email 
+FROM clientes 
+WHERE nome = 'João';
 ```
 
 <b>Utilizando Funções na Consulta SELECT:</b>
@@ -91,7 +96,8 @@ A linguagem SQL fornece uma variedade de funções embutidas que podem ser utili
 
 Exemplo: Contar o número de clientes:
 ```sql
-SELECT COUNT(*) FROM clientes;
+SELECT COUNT(*) 
+FROM clientes;
 ```
 
 Esses são apenas alguns exemplos do uso das consultas SELECT. A linguagem SQL oferece uma ampla gama de recursos para personalizar suas consultas e recuperar os dados desejados de forma eficiente. À medida que avançamos neste livro, você aprenderá mais sobre consultas SELECT avançadas, como usar joins para combinar tabelas, utilizar subconsultas, agrupar dados com GROUP BY e aplicar filtros avançados com a cláusula HAVING.
@@ -115,7 +121,17 @@ Nessa sintaxe, você especifica a tabela na qual deseja inserir os dados e, entr
 Exemplo: Inserir um novo cliente na tabela "clientes":
 
 ```sql
-INSERT INTO tabela (nome, email) VALUES ('João', 'joao@email.com');
+INSERT INTO clientes (nome, email) VALUES ('João', 'joao@email.com');
+```
+
+<b>Atualização de Dados com o comando UPDATE: </b>
+
+O comando UPDATE é utilizado para modificar dados existentes em uma tabela. A sintaxe básica é a seguinte:
+
+```sql
+UPDATE tabela 
+SET coluna1 = valor1, coluna2 = valor2
+WHERE condição;
 ```
 
 ---
