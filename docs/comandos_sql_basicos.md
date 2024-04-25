@@ -110,6 +110,14 @@ Exemplo: Contar o número de clientes:
 INSERT INTO tabela (coluna1, coluna2, ...) VALUES (valor1, valor2, ...);
 ```
 
+Nessa sintaxe, você especifica a tabela na qual deseja inserir os dados e, entre parênteses, as colunas nas quais os valores serão inseridos. Em seguida, você utiliza a palavra-chave VALUES, seguida pelos valores correspondentes a cada coluna.
+
+Exemplo: Inserir um novo cliente na tabela "clientes":
+
+```sql
+INSERT INTO tabela (nome, email) VALUES ('João', 'joao@email.com');
+```
+
 ---
 <div align="center">
     <a href="introducao.md"><kbd> <br> Capítulo Anterior <br> </kbd></a>‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ 
