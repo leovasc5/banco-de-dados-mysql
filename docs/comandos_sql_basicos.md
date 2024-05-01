@@ -166,6 +166,9 @@ WHERE id = 1;
 
 Essas são as operações básicas de inserção, atualização e exclusão de dados utilizando comandos SQL. Elas permitem que você gerencie o conteúdo das suas tabelas de forma flexível e eficiente. À medida que avançarmos no livro, você aprenderá técnicas mais avançadas e estratégias recomendadas para lidar com essas operações.
  
+<b>Ordenação de resultados</b>
+
+Ao recuperar dados de um banco de dados, é comum querermos que os resultados sejam exibidos em uma ordem específica. Para isso, utilizamos a cláusula ORDER BY na consulta SQL. Essa cláusula permite ordenar os resultados com base em uma ou mais colunas.
 
 
 
