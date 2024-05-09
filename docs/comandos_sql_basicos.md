@@ -85,6 +85,14 @@ A cláusula WHERE é usada para aplicar filtros e condições em uma consulta SE
 SELECT nome, email FROM clientes WHERE nome = 'João';
 ```
 
+<b>Utilizando Funções na Consulta SELECT:</b>
+
+A linguagem SQL fornece uma variedade de funções embutidas que podem ser utilizadas nas consultas SELECT para realizar cálculos ou manipular os dados retornados. Por exemplo, você pode utilizar a função COUNT para contar o número de registros retornados ou a função SUM para obter a soma de valores em uma coluna.
+
+Exemplo: Contar o número de clientes:
+```sql
+SELECT COUNT(*) FROM clientes;
+```
 
 ---
 <div align="center">
