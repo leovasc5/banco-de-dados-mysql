@@ -77,6 +77,15 @@ SELECT * FROM clientes;
 SELECT nome, email FROM clientes;
 ```
 
+<b>Aplicando Filtros e Condições com a cláusula WHERE:</b>
+
+A cláusula WHERE é usada para aplicar filtros e condições em uma consulta SELECT, permitindo que você restrinja os resultados com base em critérios específicos. Por exemplo, se você deseja recuperar apenas os clientes cujo nome seja "João", você pode usar a cláusula WHERE da seguinte forma:
+
+```sql
+SELECT nome, email FROM clientes WHERE nome = 'João';
+```
+
+
 ---
 <div align="center">
     <a href="introducao.md"><kbd> <br> Capítulo Anterior <br> </kbd></a>‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ 
