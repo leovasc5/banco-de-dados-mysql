@@ -68,7 +68,13 @@ Aqui estão alguns exemplos práticos de consultas SELECT:
 <b>Exemplo 1: Recuperar todas as colunas de uma tabela</b>
 
 ```sql
-SELECT * FROM tabela;
+SELECT * FROM clientes;
+```
+
+<b>Exemplo 2: Recuperar colunas específicas de uma tabela</b>
+
+```sql
+SELECT nome, email FROM clientes;
 ```
 
 ---
