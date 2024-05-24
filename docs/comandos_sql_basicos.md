@@ -63,6 +63,13 @@ SELECT coluna1, coluna2, ... FROM tabela;
 
 Nessa estrutura, você especifica as colunas que deseja obter na cláusula SELECT e a tabela da qual deseja recuperar os dados na cláusula FROM. Você pode selecionar todas as colunas de uma tabela utilizando o caractere de asterisco (*).
 
+Aqui estão alguns exemplos práticos de consultas SELECT:
+
+<b>Exemplo 1: Recuperar todas as colunas de uma tabela</b>
+
+```sql
+SELECT * FROM tabela;
+```
 
 ---
 <div align="center">
