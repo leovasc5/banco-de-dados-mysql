@@ -49,3 +49,23 @@ WHERE coluna1 = valor;
 Esses são apenas alguns exemplos dos comandos SQL básicos mais utilizados. A linguagem SQL é bastante extensa e oferece uma variedade de recursos e comandos para manipulação e consulta de dados.
 
 Agora que você tem uma visão geral da linguagem SQL, você está pronto para começar a utilizar os comandos básicos para interagir com o banco de dados MySQL. Nas seções seguintes deste capítulo, vamos explorar em mais detalhes cada um desses comandos e como utilizá-los para realizar operações específicas em um banco de dados.
+
+
+#### Consultas SELECT
+
+As consultas SELECT são um dos principais componentes da linguagem SQL. Elas permitem recuperar dados específicos de uma ou mais tabelas de um banco de dados. Vamos explorar como as consultas SELECT funcionam e como utilizá-las de forma eficaz.
+
+A estrutura básica de uma consulta SELECT é a seguinte:
+
+```sql
+SELECT coluna1, coluna2, ... FROM tabela;
+```
+
+Nessa estrutura, você especifica as colunas que deseja obter na cláusula SELECT e a tabela da qual deseja recuperar os dados na cláusula FROM. Você pode selecionar todas as colunas de uma tabela utilizando o caractere de asterisco (*).
+
+
+---
+<div align="center">
+    <a href="introducao.md"><kbd> <br> Capítulo Anterior <br> </kbd></a>‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ 
+    <a href=""><kbd> <br> Próximo Capítulo <br> </kbd></a>
+</div>
