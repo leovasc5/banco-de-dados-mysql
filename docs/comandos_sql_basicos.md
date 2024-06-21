@@ -45,3 +45,7 @@ SELECT coluna1, coluna2
 FROM tabela 
 WHERE coluna1 = valor;
 ```
+
+Esses são apenas alguns exemplos dos comandos SQL básicos mais utilizados. A linguagem SQL é bastante extensa e oferece uma variedade de recursos e comandos para manipulação e consulta de dados.
+
+Agora que você tem uma visão geral da linguagem SQL, você está pronto para começar a utilizar os comandos básicos para interagir com o banco de dados MySQL. Nas seções seguintes deste capítulo, vamos explorar em mais detalhes cada um desses comandos e como utilizá-los para realizar operações específicas em um banco de dados.
