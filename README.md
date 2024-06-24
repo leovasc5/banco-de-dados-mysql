@@ -5,7 +5,7 @@ Este repositório contém uma documentação abrangente e introdutória sobre ba
 ![MySQL Logo](assets/img/mysql_logo.png)
 
 ### Sumário
-1. **[Introdução](docs/introducao/README.md)**
+1. **[Introdução](docs/introducao.md)**
    - O que é o MySQL
    - História e propósito do MySQL
    - Instalação e configuração básica
@@ -61,3 +61,7 @@ Este repositório contém uma documentação abrangente e introdutória sobre ba
 ---
 
 Este é um ótimo guia para iniciantes e desenvolvedores que desejam aprofundar seus conhecimentos em SQL usando o MySQL, oferecendo uma base sólida para a administração e otimização de bancos de dados.
+
+---
+
+**OBS:** É indicado que você use o tema do seu GitHub em branco para uma melhor visualização da documentação.
