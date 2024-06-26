@@ -84,9 +84,9 @@ Em resumo, a história do MySQL é marcada por sua origem como um projeto de có
 ---
 ### Instalação e Configuração Básica
 
-Agora você aprenderá a instalar e configurar o MySQL em seu ambiente, tanto para o sistema operacional Windows quanto para o Linux. Além disso, também abordaremos a instalação do MySQL Workbench, uma ferramenta gráfica popular para administrar e interagir com bancos de dados MySQL. Vamos começar!
+Agora você aprenderá a instalar e configurar o MySQL em seu ambiente, tanto para o sistema operacional Windows quanto para o Linux (Ubuntu). Além disso, também abordaremos a instalação do MySQL Workbench, uma ferramenta gráfica popular para administrar e interagir com bancos de dados MySQL. Vamos começar!
 
-## Instalação do MySQL Server no Windows
+## Instalação do MySQL no Windows
 
 **Passo 1:** Acesse o site oficial do MySQL (https://www.mysql.com) e navegue até a seção de downloads.
 
@@ -137,7 +137,77 @@ Clique no botão "Download" para baixar a versão offline do MySQL Installer for
     <br><br>
 </div>
 
-----
+
+
+## Instalação do MySQL no Linux (Ubuntu)
+
+Abra o terminal e execute os seguintes comandos para instalar o MySQL Server no Ubuntu:
+
+```bash
+sudo apt update && sudo apt upgrade
+```
+<div align="center">
+    <img src="../assets/img/linux_install1.png"/>
+    <br><br>
+</div>
+
+
+Este comando irá atualizar a lista de pacotes disponíveis e instalar as atualizações disponíveis para o sistema.
+
+
+```bash
+sudo apt install mysql-server
+```
+<div align="center">
+    <img src="../assets/img/linux_install2.png"/>
+    <br><br>
+</div>
+
+
+Este comando irá instalar o MySQL Server no Ubuntu.
+
+
+```bash
+sudo systemctl start mysql.service
+```
+<div align="center">
+    <img src="../assets/img/linux_install3.png"/>
+    <br><br>
+</div>
+
+```bash
+sudo mysql_secure_installation
+```
+<div align="center">
+    <img src="../assets/img/linux_install4.png"/>
+    <br><br>
+</div>
+
+O MySQL permite que façamos algumas configurações de segurança após a instalação. O comando `mysql_secure_installation` irá guiá-lo através de um processo para configurar a senha do usuário root, remover usuários anônimos, desativar o login remoto do root e remover o banco de dados de teste.
+
+Recomendações de segurança:
+- Defina uma senha forte para o usuário root.
+- Remova os usuários anônimos.
+- Desative o login remoto do root.
+- Remova o banco de dados de teste.
+- Recarregue os privilégios para que as alterações tenham efeito.
+
+Após a instalação e configuração do MySQL Server, você pode instalar o MySQL Workbench, uma ferramenta gráfica para administrar e interagir com bancos de dados MySQL.
+
+```bash
+mysql -u root -p
+```
+<div align="center">
+    <img src="../assets/img/linux_install6.png"/>
+    <br><br>
+</div>
+
+Este comando irá conectar ao servidor MySQL usando o usuário root. Você será solicitado a inserir a senha do usuário root que você configurou anteriormente.
+
+Caso você tenha desejo de utilizar uma interface gráfica para interagir com o MySQL, você pode instalar o MySQL Workbench. Você pode realizar a instalação dele pela Ubuntu Software ou pelo terminal.
+
+Pronto seu MySQL está instalado e você já pode começar a utilizá-lo.
+
 ### Referências Externas
 
 [1] - Oracle Brasil (2013). Via X (@oracledobrasil). Acessado em 25 de junho de 2024, às 13:40.
