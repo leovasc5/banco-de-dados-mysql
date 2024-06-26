@@ -93,33 +93,7 @@ Em resumo, a história do MySQL é marcada por sua origem como um projeto de có
 [4] - Via site Museu Capixaba do Computador. Acessado em 26 de junho de 2024, às 10:29.
 
 ---
-<div class="button-container">
-  <a href="" class="button button-previous">Capítulo Anterior</a>
-  <a href="comandos_sql_basicos.md" class="button button-next">Próximo Capítulo</a>
+<div align="center">
+    <a href=""><kbd> <br> Capítulo Anterior <br> </kbd></a>‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ 
+    <a href="comandos_sql_basicos.md"><kbd> <br> Próximo Capítulo <br> </kbd></a>
 </div>
-
-
-<style>
-  .button-container {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 20px;
-  }
-
-  .button {
-    display: inline-block;
-    padding: 10px 20px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    text-decoration: none;
-    color: #000;
-  }
-
-  .button-previous {
-    margin-right: 20px;
-  }
-
-  .button:hover {
-    background-color: #eee;
-  }
-</style>
