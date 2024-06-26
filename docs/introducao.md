@@ -81,6 +81,62 @@ O MySQL também se destaca pela sua facilidade de uso. Sua linguagem SQL intuiti
 
 Em resumo, a história do MySQL é marcada por sua origem como um projeto de código aberto e seu crescimento como um dos sistemas de gerenciamento de banco de dados mais populares do mundo. Seu propósito é fornecer uma solução confiável, escalável e de alto desempenho para armazenamento e recuperação de dados, atendendo às necessidades tanto de pequenos projetos quanto de grandes aplicações empresariais.
 
+---
+### Instalação e Configuração Básica
+
+Agora você aprenderá a instalar e configurar o MySQL em seu ambiente, tanto para o sistema operacional Windows quanto para o Linux. Além disso, também abordaremos a instalação do MySQL Workbench, uma ferramenta gráfica popular para administrar e interagir com bancos de dados MySQL. Vamos começar!
+
+## Instalação do MySQL Server no Windows
+
+**Passo 1:** Acesse o site oficial do MySQL (https://www.mysql.com) e navegue até a seção de downloads.
+
+<div align="center">
+    <img src="../assets/img/windows_install1.png"/>
+    <br><br>
+</div>
+
+**Passo 2:** Na página de downloads, clique no botão "MySQL Community (GPL) Downloads".
+
+<div align="center">
+    <img src="../assets/img/windows_install2.png"/>
+    <br><br>
+</div>
+
+**Passo 3:** Role a página para baixo até encontrar a seção "MySQL Installer for Windows". Clique no botão "Download" para baixar .
+
+<div align="center">
+    <img src="../assets/img/windows_install3.png"/>
+    <br><br>
+</div>
+
+O site oficial do MySQL oferece várias opções de download, incluindo o MySQL Installer for Windows, que é uma ferramenta que facilita a instalação e a configuração do MySQL Server e outras ferramentas relacionadas.
+
+Olhando novamente a imagem acima, você pode perceber que existem algumas ferramentas e softwares extras que auxiliam o trabalho de desenvolvimento com o MySQL. 
+
+Ao clicar em "MySQL Installer for Windows" estamos escolhendo um software que irá instalar o MySQL Server, o MySQL Workbench e outras ferramentas que podem ser úteis para o desenvolvimento de aplicações com MySQL. Tudo de forma centralizada e simplificada.
+
+**Passo 4:** Observe que o site irá fornecer duas opções de download, uma com a versão 5 e outra com a versão 8. A diferença entre elas é que a versão 5 é mais antiga e a versão 8 é mais recente, porém ambas são estáveis e funcionais. A versão 5 ainda existe devido a alta quantidade de aplicações que ainda utilizam essa versão, por isso ainda é possível baixá-la e explorar suas funcionalidades.
+
+Mantenha a versão 8 selecionada. No dia atual no qual este guia foi escrito, a versão 8 mais recente é a 8.0.37, mas pode ser que você se depare com algumas versões mais recentes. Não se preocupe, dificilmente haverá mudanças significativas entre as versões e o modo de instalação será o mesmo.
+
+<div align="center">
+    <img src="../assets/img/windows_install4.png"/>
+    <br><br>
+</div>
+
+**Passo 5:** Observe que existe duas versões do MySQL Installer for Windows: a versão web e a versão offline. A versão web é um instalador pequeno que baixa os arquivos necessários durante a instalação, enquanto a versão offline é um instalador maior que inclui todos os arquivos necessários.
+
+Tenha preferência pela versão offline, pois ela é mais rápida e não depende de uma conexão com a internet para baixar os arquivos necessários.
+
+Clique no botão "Download" para baixar a versão offline do MySQL Installer for Windows.
+
+**Passo 6:** Você será encaminhado para a página de download do MySQL Installer for Windows. A Oracle utiliza esta página para capturar leads para seus produtos. Clique no botão "No thanks, just start my download." para iniciar o download do instalador.
+
+<div align="center">
+    <img src="../assets/img/windows_install5.png"/>
+    <br><br>
+</div>
+
 ----
 ### Referências Externas
 
