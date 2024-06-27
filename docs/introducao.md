@@ -137,7 +137,162 @@ Clique no botão "Download" para baixar a versão offline do MySQL Installer for
     <br><br>
 </div>
 
+**Passo 7:** Após o download do instalador, execute o arquivo baixado para iniciar o processo de instalação dos produtos do MySQL.
 
+<div align="center">
+    <img src="../assets/img/windows_install6.png"/>
+    <br><br>
+</div>
+
+**Passo 8:** Ao executar a aplicação, o instalador identificará que não temos o MySQL instalado em nossa máquina. Então ele nos leva para uma tela de escolha de produtos.
+
+<div align="center">
+    <img src="../assets/img/windows_install7.png"/>
+    <br><br>
+</div>
+
+| Nome        | Descrição                                                                                               |
+|-------------|---------------------------------------------------------------------------------------------------------|
+| Server Only | Instala apenas a aplicação necessária para iniciar um servidor de banco de dados na sua máquina         |
+| Client Only | Instala apenas as aplicações necessárias para acessar e manipular um servidor de banco de dados externo |
+| Full        | Instala todas as aplicações disponíveis para o MySQL                                                    |
+| Customize   | Você escolhe quais aplicações serão instaladas de acordo com o seu perfil de uso                        |
+
+Vamos escolher a opção "Full" para instalar todas as aplicações disponíveis para o MySQL.
+
+É possível que após a execução deste passo, o instalador abra uma tela de conflitos de porta ou de diretórios já existentes. Caso isso aconteça, clique em "Next" para prosseguir com a instalação. O instalador irá configurar automaticamente as portas e diretórios necessários para o funcionamento do MySQL.
+
+**Passo 9:** Após escolher a opção "Full", clique em "Next" para prosseguir para as instalações. Aperte em "Execute" para o instalador baixar os arquivos necessários para a execução do serviço. Este processo pode demorar um pouco, dependendo da velocidade da sua conexão com a internet.
+
+<div align="center">
+    <img src="../assets/img/windows_install8.png"/>
+    <br><br>
+</div>
+
+Não se preocupe caso as versões dos produtos sejam diferentes das que estão na imagem. A Oracle atualiza constantemente os produtos e as versões podem mudar.
+
+| Produto              | Descrição                                                                                                                                                                                                                                                 |
+|----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| MySQL Server         | É o núcleo do sistema de gerenciamento de banco de dados. Ele permite a criação, gerenciamento e manipulação de bancos de dados. Oferece recursos como armazenamento seguro, alta disponibilidade, replicação, partição de tabelas e suporte a transações |
+| MySQL Workbench      | É uma ferramenta visual integrada para desenvolvedores de banco de dados. Ele fornece uma interface gráfica para projetar, modelar, gerar e gerenciar bancos de dados MySQL                                                                               |
+| MySQL Shell          | É uma ferramenta interativa avançada para administrar e desenvolver bancos de dados MySQL. Ele suporta três modos principais: SQL, JavaScript e Python                                                                                                    |
+| MySQL Router         | É uma ferramenta de middleware que facilita a distribuição de conexões de aplicação para múltiplos servidores MySQL                                                                                                                                       |
+| MySQL Documentation  | A documentação oferece uma extensa coleção de guias, manuais de referência, tutoriais e exemplos para ajudar os usuários a entender e utilizar todos os aspectos do MySQL                                                                                 |
+| Samples and Examples | São conjuntos de dados e exemplos de código fornecidos para ajudar os usuários a aprender a usar o MySQL de maneira eficaz                                                                                                                                |
+
+**Passo 10:** Clique no botão execute e espere todos os produtos serem instalados. Após a instalação, clique em "Next" para prosseguir, assim como está na imagem.
+
+<div align="center">
+    <img src="../assets/img/windows_install9.png"/>
+    <br><br>
+</div>
+
+**Passo 11:** Na próxima tela, o instalador deixa claro que seguirá com a instalação automática do servidor, do router e dos exemplos. Clique em "Next" para prosseguir.
+
+<div align="center">
+    <img src="../assets/img/windows_install10.png"/>
+    <br><br>
+</div>
+
+**Passo 12:** Nesta etapa o instalador está configurando os requisitos de rede. Por padrão deixamos o "Config Type" como "Development Computer", mas há opções dedicadas a criação de servidores para máquinas dedicas, o que não é o nosso caso já que pretendemos usar o MySQL para desenvolvimento e manter a nossa máquina como um ambiente de desenvolvimento. Clique em "Next" para prosseguir.
+
+<div align="center">
+    <img src="../assets/img/windows_install11.png"/>
+    <br><br>
+</div>
+
+**Passo 13:** Nesta etapa iremos configurar o método de autenticação do MySQL. Por padrão, o MySQL utiliza o método de autenticação baseado em senha, que é o mais seguro. Clique em "Next" para prosseguir.
+
+<div align="center">
+    <img src="../assets/img/windows_install12.png"/>
+    <br><br>
+</div>
+
+**Passo 14:** Nesta etapa estaremos configurando a senha do usuário root do MySQL. A senha do usuário root é a senha do administrador do MySQL, que tem acesso total ao servidor de banco de dados. É importante definir uma senha forte e segura para o usuário root. 
+
+**NÃO ESQUEÇA A SENHA DO USUÁRIO ROOT!**
+
+Caso você esqueça a senha do usuário root, será necessário reinstalar o MySQL para recuperar o acesso ao servidor de banco de dados.
+
+Abaixo há uma tabelinha para a criação de usuários para o MySQL, iremos mexer nisso mais para frente, mas é importante que você saiba que o MySQL permite a criação de usuários com diferentes níveis de acesso ao servidor de banco de dados.
+
+Após configurado a senha do usuário Root, clique em "Next" para prosseguir.
+
+<div align="center">
+    <img src="../assets/img/windows_install13.png"/>
+    <br><br>
+</div>
+
+Para termos uma ideia de como funciona a hierarquia de usuários em servidores:
+
+<div align="center">
+    <img src="../assets/img/hierarquia.jpg"/>
+    <br><br>
+</div>
+
+O usuário "root" é o superusuário do MySQL, que tem acesso total ao servidor de banco de dados e pode executar qualquer operação. Ele é o administrador do MySQL e é responsável por configurar e gerenciar o servidor de banco de dados.
+
+Por padrão, em empresas e projetos de grande porte o acesso é dividido para garantir a segurança e a integridade dos dados. Os usuários são criados com diferentes níveis de acesso, dependendo das suas funções e responsabilidades.
+
+Os "devs" são os desenvolvedores que têm permissão para acessar e manipular os dados do banco de dados, mas não têm permissão para realizar operações de administração no servidor. Eles são responsáveis por criar, consultar, atualizar e excluir dados, bem como por otimizar consultas e garantir a integridade dos dados.
+
+As "aplicações" são os usuários que são usados pelas aplicações para se conectar ao servidor de banco de dados. Eles têm permissões limitadas para acessar e manipular os dados de acordo com as necessidades da aplicação. Eles são responsáveis por executar consultas, inserir dados, atualizar registros e, em alguns casos, excluir informações.
+
+Os "dbas" (Database Administrator) são os usuários que têm permissão para realizar operações de administração no servidor de banco de dados. Eles são responsáveis por configurar e gerenciar o servidor, criar e gerenciar usuários, definir permissões e privilégios, monitorar o desempenho e a integridade dos dados, realizar backups e recuperações, entre outras tarefas.
+
+**Passo 15:** A próxima etapa é configurar o MySQL como um serviço do Windows. Deixe a opção "Configure MySQL Server as a Windows Service" marcada.
+
+Isso fará com que o MySQL seja executado como um serviço do Windows, o que significa que ele será iniciado automaticamente quando o computador for ligado e será executado em segundo plano, mesmo que nenhum usuário esteja logado no sistema.
+
+Abaixo há a opção de criar o serviço apenas ao entrar no Windows com um usuário determinado. Deixe a opção "Standard System Account" marcada para que o MySQL seja iniciado automaticamente quando o sistema for ligado.
+
+Clique em "Next" para prosseguir.
+
+<div align="center">
+    <img src="../assets/img/windows_install14.png"/>
+    <br><br>
+</div>
+
+**Passo 16:** O MySQL armazena todos os seus dados dentro de um diretório específico do computador. Esta etapa pergunta qual será o nível de segurança do diretório onde os dados do MySQL serão armazenados. Por padrão, deixamos a primeira opção marcada, para evitar complicações com futuros backups.
+
+<div align="center">
+    <img src="../assets/img/windows_install15.png"/>
+    <br><br>
+</div>
+
+**Passo 17:** Partindo para o final da instalação, aplique as configurações que você fez até agora. Clique em "Execute" para que o instalador aplique as configurações e instale o MySQL Server.
+
+<div align="center">
+    <img src="../assets/img/windows_install16.png"/>
+    <br><br>
+</div>
+
+**Passo 18:** Tente realizar a conexão com o servidor para validar se o MySQL foi instalado corretamente. Clique em "Check" para que o instalador valide a conexão com o servidor.
+
+<div align="center">
+    <img src="../assets/img/windows_install17.png"/>
+    <br><br>
+</div>
+
+**Passo 19:** Após a validação da conexão, clique em "Finish" para finalizar a instalação do MySQL Server.
+
+<div align="center">
+    <img src="../assets/img/windows_install18.png"/>
+    <br><br>
+</div>
+
+**Passo 20:** Mantenha "Start MySQL Workbench after setup" marcado e aperte em "Finish", isso fará com que você tenha acesso à ferramente visual de manipulação do banco de dados.
+
+A segunda opção irá iniciar o MySQL Shell, uma ferramenta de linha de comando para interagir com o servidor de banco de dados.
+
+<div align="center">
+    <img src="../assets/img/windows_install19.png"/>
+    <br><br>
+</div>
+
+Pronto seu MySQL está instalado e você já pode começar a utilizá-lo.
+
+---
 
 ## Instalação do MySQL no Linux (Ubuntu)
 
@@ -205,6 +360,11 @@ mysql -u root -p
 Este comando irá conectar ao servidor MySQL usando o usuário root. Você será solicitado a inserir a senha do usuário root que você configurou anteriormente.
 
 Caso você tenha desejo de utilizar uma interface gráfica para interagir com o MySQL, você pode instalar o MySQL Workbench. Você pode realizar a instalação dele pela Ubuntu Software ou pelo terminal.
+
+<div align="center">
+    <img src="../assets/img/linux_install7.png"/>
+    <br><br>
+</div>
 
 Pronto seu MySQL está instalado e você já pode começar a utilizá-lo.
 

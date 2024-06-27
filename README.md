@@ -2,7 +2,10 @@
 
 Este repositório contém uma documentação abrangente e introdutória sobre bancos de dados MySQL, abordando desde os conceitos básicos até tópicos avançados. Abaixo está o sumário dos conteúdos disponíveis:
 
-![MySQL Logo](assets/img/mysql_logo.png)
+<div align="center">
+    <img src="../assets/img/mysql_logo.png"/>
+    <br><br>
+</div>
 
 ### Sumário
 1. **[Introdução](docs/introducao.md)**
