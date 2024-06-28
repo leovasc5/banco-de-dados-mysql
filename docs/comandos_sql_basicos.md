@@ -37,3 +37,11 @@ SELECT coluna1, coluna2
 FROM tabela 
 ORDER BY coluna1 ASC;
 ```
+
+<b>WHERE</b>: A cláusula WHERE é usada para filtrar os resultados de uma consulta com base em uma condição especificada.
+
+```sql
+SELECT coluna1, coluna2 
+FROM tabela 
+WHERE coluna1 = valor;
+```
