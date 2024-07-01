@@ -29,3 +29,11 @@ UPDATE tabela SET coluna1 = novo_valor WHERE condição;
 ```sql
 DELETE FROM tabela  WHERE condição;
 ```
+
+<b>ORDER BY</b>: A cláusula ORDER BY é usada para ordenar os resultados de uma consulta com base em uma ou mais colunas.
+
+```sql
+SELECT coluna1, coluna2 
+FROM tabela 
+ORDER BY coluna1 ASC;
+```
