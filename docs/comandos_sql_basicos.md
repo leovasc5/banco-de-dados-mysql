@@ -218,6 +218,22 @@ WHERE condição;
 
 Na sintaxe acima, você especifica as colunas que deseja selecionar na consulta, seguidas pela palavra-chave FROM e o nome da tabela. Em seguida, utiliza a cláusula WHERE para definir a condição pela qual os registros serão filtrados.
 
+A condição é uma expressão que compara os valores das colunas com um valor específico, utiliza operadores lógicos para combinar múltiplas condições ou utiliza funções para realizar comparações mais complexas. Alguns operadores comuns utilizados em condições WHERE incluem:
+
+<b>Igual (=):</b> compara se o valor da coluna é igual a um valor específico.
+
+<b>Diferente (!= ou <b>):</b> compara se o valor da coluna é diferente de um valor específico.
+Maior que (>), menor que (<), maior ou igual (>=) e menor ou igual (<=): comparam os valores numéricos das colunas com um valor específico.
+
+<b>LIKE</b>: compara os valores de texto com um padrão específico (utilizando curingas como % e _).
+
+<b>IN</b>: verifica se o valor da coluna está presente em um conjunto de valores especificados.
+
+<b>NOT</b>: nega uma condição.
+
+Exemplo: Filtrar os registros da tabela "clientes" para exibir apenas aqueles cuja idade seja maior que 25:
+
+
 ---
 <div align="center">
     <a href="introducao.md"><kbd> <br> Capítulo Anterior <br> </kbd></a>‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ 
