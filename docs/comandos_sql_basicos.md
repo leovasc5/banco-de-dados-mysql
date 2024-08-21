@@ -23,3 +23,9 @@ INSERT INTO tabela (coluna1, coluna2) VALUES (valor1, valor2);
 ```sql
 UPDATE tabela SET coluna1 = novo_valor WHERE condição;
 ```
+
+<b>DELETE</b>: O comando DELETE é usado para excluir registros de uma tabela.
+
+```sql
+DELETE FROM tabela  WHERE condição;
+```
