@@ -17,3 +17,9 @@ SELECT coluna1, coluna2 FROM tabela WHERE condição;
 ```sql
 INSERT INTO tabela (coluna1, coluna2) VALUES (valor1, valor2);
 ```
+
+<b>UPDATE</b>: O comando UPDATE é usado para atualizar os valores de um ou mais registros em uma tabela.
+
+```sql
+UPDATE tabela SET coluna1 = novo_valor WHERE condição;
+```
