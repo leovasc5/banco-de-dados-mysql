@@ -8,7 +8,12 @@ SQL é uma linguagem de consulta que permite realizar operações de leitura, in
 
 <b>SELECT</b>: O comando é usado para recuperar dados de uma tabela ou conjunto de tabelas ele permite especificar as colunas que você deseja obter o filtro e condições para restringir resultados.
 
-<!-- Coloque aqui um select em formato de código markdown -->
 ```sql
 SELECT coluna1, coluna2 FROM tabela WHERE condição;
+```
+
+<b>INSERT</b>: O comando INSERT é usado para inserir novos registros em uma tabela.
+
+```sql
+INSERT INTO tabela (coluna1, coluna2) VALUES (valor1, valor2);
 ```
