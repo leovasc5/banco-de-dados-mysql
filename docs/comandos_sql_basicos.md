@@ -94,6 +94,22 @@ Exemplo: Contar o número de clientes:
 SELECT COUNT(*) FROM clientes;
 ```
 
+Esses são apenas alguns exemplos do uso das consultas SELECT. A linguagem SQL oferece uma ampla gama de recursos para personalizar suas consultas e recuperar os dados desejados de forma eficiente. À medida que avançamos neste livro, você aprenderá mais sobre consultas SELECT avançadas, como usar joins para combinar tabelas, utilizar subconsultas, agrupar dados com GROUP BY e aplicar filtros avançados com a cláusula HAVING.
+ 
+
+#### Inserção, atualização e exclusão de dados
+
+Na linguagem SQL, além de recuperar dados usando consultas SELECT, também podemos realizar operações para inserir, atualizar e excluir dados em um banco de dados. Essas operações são essenciais para manter os dados atualizados e gerenciar o conteúdo de suas tabelas. Vamos explorar como realizar essas operações.
+
+<b>Inserção de Dados com o comando INSERT INTO:</b>
+
+O comando INSERT INTO é utilizado para inserir novos registros em uma tabela. A sintaxe básica é a seguinte:
+
+Exemplo: Contar o número de clientes:
+```sql
+INSERT INTO tabela (coluna1, coluna2, ...) VALUES (valor1, valor2, ...);
+```
+
 ---
 <div align="center">
     <a href="introducao.md"><kbd> <br> Capítulo Anterior <br> </kbd></a>‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ 
