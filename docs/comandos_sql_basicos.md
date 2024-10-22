@@ -222,7 +222,7 @@ A condição é uma expressão que compara os valores das colunas com um valor e
 
 <b>Igual (=):</b> compara se o valor da coluna é igual a um valor específico.
 
-<b>Diferente (!= ou <b>):</b> compara se o valor da coluna é diferente de um valor específico.
+<b>Diferente (!= ou <>):</b> compara se o valor da coluna é diferente de um valor específico.
 Maior que (>), menor que (<), maior ou igual (>=) e menor ou igual (<=): comparam os valores numéricos das colunas com um valor específico.
 
 <b>LIKE</b>: compara os valores de texto com um padrão específico (utilizando curingas como % e _).
