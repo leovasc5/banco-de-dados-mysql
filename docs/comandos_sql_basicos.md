@@ -286,7 +286,7 @@ Funções de data e hora:
 <b>DATE_FORMAT()</b>: formata uma data de acordo com um padrão especificado.
 <b>DATEDIFF()</b>: calcula a diferença em dias entre duas datas.
 
-Para usar uma função em uma consulta, você precisa inclui-la em sua instrução SELECT. A sintaxe básica é a seguinte:
+Para usar uma função em uma consulta, você precisa inclui-la em sua instrução <b>SELECT</b>. A sintaxe básica é a seguinte:
 
 ```sql
 SELECT função(coluna) AS alias
@@ -295,14 +295,14 @@ FROM tabela;
 
 Na sintaxe acima, você especifica a função desejada, seguida pelos parênteses contendo a coluna na qual a função será aplicada. O uso do "AS alias" é opcional e permite atribuir um nome personalizado ao resultado da função.
 
-Exemplo: Usando a função UPPER() para exibir os nomes dos clientes em letras maiúsculas:
+Exemplo: Usando a função <b>UPPER()</b> para exibir os nomes dos clientes em letras maiúsculas:
  
 ```sql
 SELECT UPPER(nome) AS nome_maiusculo
 FROM clientes;
 ```
 
-Exemplo: Utilizando a função ROUND() para arredondar os valores de uma coluna de preços com duas casas decimais:
+Exemplo: Utilizando a função <b>ROUND()</b> para arredondar os valores de uma coluna de preços com duas casas decimais:
 
 ```sql
 SELECT ROUND(preco, 2) AS preco_arredondado
